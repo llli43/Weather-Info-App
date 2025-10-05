@@ -67,3 +67,10 @@ footer {
     background-color: #f0f0f0;
     font-size: 0.9rem;
 }
+.about, .tips {
+    margin-top: 2rem;
+    background-color: #f7faff;
+    border-left: 4px solid #3f8efc;
+    padding: 1rem;
+    border-radius: 8px;
+}
