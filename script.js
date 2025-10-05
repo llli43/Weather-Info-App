@@ -29,3 +29,8 @@ showWeatherBtn.addEventListener("click", () => {
         <p><strong>Humidity:</strong> ${data.humidity}%</p>
     `;
 });
+// Back to Top button functionality
+const backToTopBtn = document.getElementById("backToTop");
+backToTopBtn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+});
