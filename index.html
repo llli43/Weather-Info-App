@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Info App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🌤 Weather Info App</h1>
+        <p>Check the weather for major Australian cities</p>
+    </header>
+
+    <main>
+        <div class="search-section">
+            <label for="city">Select a city:</label>
+            <select id="city">
+                <option value="">-- Choose a city --</option>
+                <option value="Sydney">Sydney</option>
+                <option value="Melbourne">Melbourne</option>
+                <option value="Brisbane">Brisbane</option>
+                <option value="Perth">Perth</option>
+                <option value="Adelaide">Adelaide</option>
+            </select>
+            <button id="showWeather">Show Weather</button>
+        </div>
+
+        <div id="weatherResult" class="weather-card">
+            <p>Select a city to view weather information.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Weather Info App | Designed by Li Dongxu</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
