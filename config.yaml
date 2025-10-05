@@ -1,0 +1,18 @@
+# Configuration file for Weather Info App
+# This YAML file stores basic app and deployment settings.
+
+app:
+  name: "Weather Info App"
+  version: "1.0"
+  description: "Simple web app to display simulated weather data for Australian cities."
+
+deployment:
+  platform: "GitHub Pages"
+  branch: "main"
+  directory: "/ (root)"
+  status: "active"
+
+author:
+  name: "Li Dongxu"
+  student_id: "24832300"
+  course: "ISYS3001 - Managing Software Development"
